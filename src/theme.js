@@ -4,9 +4,6 @@ import { PrimaryColor } from './components/constants/theme';
 export const theme = createTheme({
   overrides: {
     MuiOutlinedInput: {
-      input: {
-        height: 17,
-      },
       notchedOutline: {
         borderColor: '#EDEDED',
       },
